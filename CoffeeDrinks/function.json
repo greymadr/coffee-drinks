@@ -1,0 +1,13 @@
+﻿{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "methods": [ "get" ],
+      "authLevel": "anonymous",
+      "name": "req",
+      "route": "coffee"
+    }
+  ],
+  "scriptFile": "../bin/CoffeeDrinks.dll",
+  "entryPoint": "CoffeeDrinks.CoffeeDrinks.run"
+}
